@@ -1,10 +1,9 @@
 /* custom assert function which will log a message to console */
-const assertEqual = function (actual, expected) {
+const assertEqual = (actual, expected) => {
   if (actual !== expected) {
-    console.log('🚨🚨🚨 Assertion Failed: ', actual, ' !== ', expected);
+    console.log(`🚨🚨🚨 Assertion Failed: ${actual} !== ${expected}`);
   } else {
-    console.log('💎💎💎 Assertion Passed: ', actual, ' === ', expected);
-
+    console.log(`💎💎💎 Assertion Passed: ${actual} === ${expected}`);
   }
 };
 

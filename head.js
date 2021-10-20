@@ -8,7 +8,7 @@ const assertEqual = (actual, expected) => {
 
 
 const head = array => {
-  return array.splice(0, 1)[0];
+  return array.slice(0, 1)[0];
 };
 
 
