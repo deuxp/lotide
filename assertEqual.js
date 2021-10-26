@@ -1,4 +1,6 @@
-
+const isString = input => {
+  return typeof input === "string";
+};
 /* custom assert function which will log a message to console */
 // paired with assertEqual: dependency
 const assertEqual = (actual, expected) => {

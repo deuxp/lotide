@@ -24,13 +24,14 @@ console.log(countLetters(a));
 // ======================================================
 // ======================================================
 // tester used by assertEqual
-const isString = input => {
-  return typeof input === "string";
-};
+// const isString = input => {
+//   return typeof input === "string";
+// };
 
 
 /* custom assert function which will log a message to console */
 const assertEqual = (actual, expected) => {
+  const isString = input => typeof input === "string";
   if (actual !== expected) {
     console.log(`🚨🚨🚨 Assertion Failed: ${isString(actual) ? '"' + actual + '"' : actual} !== ${isString(expected) ? '"' + expected + '"' : expected}`);
   } else {
