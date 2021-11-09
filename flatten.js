@@ -1,5 +1,5 @@
-const flatten = input => {
-  let subArray = new Array;
+const flatten = function(input) {
+  let subArray = [];
 
   input.forEach(item => {
     if (Array.isArray(item)) {
@@ -8,9 +8,8 @@ const flatten = input => {
       subArray.push(item);
     }
   });
-
-  console.log(subArray);
+  return subArray;
 };
 
 
-// flatten([1, 2, [3, 4], 5, [6], [8, 9, 10], 11, 12]); // => [1, 2, 3, 4, 5, 6]
+module.exports = flatten;
