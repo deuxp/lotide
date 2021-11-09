@@ -1,4 +1,4 @@
-const eqArrays = require('./eqArray')
+const eqArrays = require('./eqArray');
 
 // ==================================
 // Compare two arrays for equality
