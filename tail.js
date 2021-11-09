@@ -7,7 +7,7 @@
 -[x] dont destroy original array
 */
 const tail = array => {
-  if (!(array) || array.length === 1) {
+  if (!(array) || array.length === 1 || !(Array.isArray(array))) {
     return [];
   }
   return array.slice(1);
