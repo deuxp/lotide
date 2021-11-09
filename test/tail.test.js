@@ -1,0 +1,13 @@
+const assertEqual = require('../assertEqual')
+const tail = require('../tail')
+
+// assertEqual(actual, expected)
+// assertEqual(actual, expected)
+// assertEqual(actual, expected)
+// assertEqual(actual, expected)
+// assertEqual(actual, expected)
+assertEqual(tail([1,2,3,4])[0], 2)
+assertEqual(tail([1,2,3,4])[1], 3)
+assertEqual(tail([1,2,3,4])[2], 4)
+assertEqual(tail([1,2,3,4])[3], undefined)
+assertEqual(tail([])[0], [][0])
