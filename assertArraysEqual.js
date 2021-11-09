@@ -5,7 +5,7 @@ const eqArrays = require('./eqArray');
 // ==================================
 
 const assertArraysEqual = (actual, expected) => {
-  const pass = `💎💎💎 Assertion Passed: ${actual} === ${expected}`;
+  const pass = `💎 💎 💎 Assertion Passed: ${actual} === ${expected}`;
   const notPass = `👁 👄 👁 Assertion Failed: ${actual} !== ${expected}`;
   eqArrays(actual, expected) ? console.log(pass) : console.log(notPass);
 };

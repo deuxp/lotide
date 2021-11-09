@@ -1,11 +1,3 @@
-// const assertEqual = (actual, expected) => {
-//   if (actual !== expected) {
-//     console.log(`🚨🚨🚨 Assertion Failed: ${actual} !== ${expected}`);
-//   } else {
-//     console.log(`💎💎💎 Assertion Passed: ${actual} === ${expected}`);
-//   }
-// };
-
 
 const eqArrays = (array1, array2) => {
   if (!(Array.isArray(array1)) || !(Array.isArray(array2))) {
