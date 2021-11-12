@@ -1,18 +1,14 @@
 const eqArrays = require('./eqArray');
-// ========================================================================
-// the function: eqObjects()
-// ========================================================================
-/*
-input -> object actual, object expected
-paramPrep: compare four lists: keys for both and values for both
-
-make two arrays of keys.
-use the keys of the other in the others [] and compare
-if no match pop it off return false
-
-return make it to the end no error TRUE
-output-> Boolean
-*/
+// =================================================================
+// eqArrays(arg1, arg2): is a function that determines whether 2 objects
+//                       are strictly equal.
+// Parameters: (A) the object to test (B) the expected object
+// Return:     Boolean
+// Behaviour:  One list of keys is used for both objects.
+//             The values is tested for strict equality.
+//             If the objects properties amount to different lengths,
+//             false is automatically returned.
+// =================================================================
 const eqObjects = (actual, expected) => {
   const actualKeys = Object.keys(actual);
   const expectedKeys = Object.keys(expected);

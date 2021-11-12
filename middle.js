@@ -1,6 +1,6 @@
 // Return the middle item for an odd numbered array..
 // for even numbered array, return the two middle items
-const middle = array => {
+const middle = function(array) {
   if (!(array) || array.length < 3 || !(Array.isArray(array))) {
     return [];
   }

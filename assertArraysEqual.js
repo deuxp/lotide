@@ -1,7 +1,9 @@
 const eqArrays = require('./eqArray');
 
 // ==================================
-// Compare two arrays for equality
+// assertArraysEqual(arg1, arg2) is a function that determines whether 2 arrays are strictly equal.
+// Return: undefined
+// behaviour: logs the results to the console
 // ==================================
 
 const assertArraysEqual = (actual, expected) => {

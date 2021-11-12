@@ -1,5 +1,8 @@
-
-/* custom assert function which will log a message to console */
+// ==================================
+// assertEqual(arg1, arg2) is a function that determines whether 2 passed values are strictly equal.
+// Return: undefined
+// behaviour: logs the results to the console
+// ==================================
 
 const assertEqual = function(actual, expected) {
   const pass = `💎 💎 💎 Assertion Passed: ${actual} === ${expected}`;

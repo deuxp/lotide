@@ -1,8 +1,11 @@
-/*
-input -> string
-output-> an object with the letters and their count
-*/
-const countLetters = input => {
+// =================================================================
+// countLetters(arg1) is a function that counts the letters of a string.
+// Return: new Object
+// Behaviour: The key/value pairs of the return object are comprised
+//            of letters that appear in the sting and how many times
+//            they appear.
+// =================================================================
+const countLetters = function(input) {
   const result = {};
   input = input.replace(/\s/g, '').toLowerCase();
   for (const letter of input) {

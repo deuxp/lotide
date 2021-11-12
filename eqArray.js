@@ -1,5 +1,12 @@
+// =================================================================
+// eqArrays(arg1, arg2): is a function that determines whether 2 arrays
+//                       are strictly equal.
+// Parameters: (A) an array (B) an array
+// Return:     Boolean
+// Behaviour:
+// =================================================================
 
-const eqArrays = (array1, array2) => {
+const eqArrays = function(array1, array2) {
   if (!(Array.isArray(array1)) || !(Array.isArray(array2))) {
     throw Error('must pass array as args');
   }

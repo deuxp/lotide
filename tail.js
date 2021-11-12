@@ -1,12 +1,10 @@
 
-/*  Criteria
+/*
 ===================================
+Returns an array of everything except the first item
 ===================================
--[x] array of 1; tail = []
--[x] empty array; tail = []
--[x] dont destroy original array
 */
-const tail = array => {
+const tail = function(array) {
   if (!(array) || array.length === 1 || !(Array.isArray(array))) {
     return [];
   }
