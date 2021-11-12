@@ -1,4 +1,3 @@
-
 // Returns a new array of all the items not specified by itemToRemove arg.
 const without = function(source, itemsToRemove) {
   let arrayWithout = source;

@@ -11,7 +11,7 @@
 const eqObjects = (actual, expected) => {
   const actualKeys = Object.keys(actual);
   const expectedKeys = Object.keys(expected);
-  // checks if one object contains more properties than the other
+  // checks lengths match to guard against false positive
   if (actualKeys.length !== expectedKeys.length) return false;
   for (let i = 0; i < actualKeys.length; i++) {
     const key = actualKeys[i];

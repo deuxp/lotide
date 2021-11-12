@@ -1,4 +1,3 @@
-
 // =================================================================
 // findKeyByValue(object, value): returns the first key of an objects property whos value matches the provided argument.
 // Parameters: (A) an object (B) the value to check for

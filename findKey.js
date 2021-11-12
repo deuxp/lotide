@@ -1,4 +1,3 @@
-
 // =================================================================
 // findKey(object, callback): returns the key of an object based on
 //                            the criteria, defined in a callback function

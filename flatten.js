@@ -6,10 +6,8 @@
 //             If the item is an array, it will be concatenated to the new array.
 //             Only works with one level of depth or nesting.
 // =================================================================
-
 const flatten = function(input) {
   let subArray = [];
-
   input.forEach(item => {
     if (Array.isArray(item)) {
       subArray = subArray.concat(item);
