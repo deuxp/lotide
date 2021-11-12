@@ -34,7 +34,7 @@ Heavily inspired by the Lodash library, Lotide offers simpler, singular purpose 
 ___Params___:
 
 - (A) Type: array -- should be the array you want to test. Actual
-- (B) type: array -- expected outcome.
+- (B) type: array -- expected outcome
 
 ___Behaviour___:
 
@@ -48,10 +48,11 @@ dependancy: eqArrays(). Takes in a truthy statment based on a comparison made by
 
 ___Params___:
 
-- (a) primitive data type, to be tested.
-- (b) the expected primitive data type.
+- (a) primitive data type, to be tested
+- (b) the expected primitive data type
 
 ___Behaviour___:
+
 Uses strict equality `===` of the two primitives and then logs the results of the assertion to the console. Returns a Boolean value.
 
 ---
@@ -62,12 +63,12 @@ Uses strict equality `===` of the two primitives and then logs the results of th
 
 ___Params___:
 
-- (a) the object to be tested. Actual.
-- (b) the expected object. To test against.
+- (a) the object to be tested. Actual
+- (b) the expected object. To test against
 
 ___Behaviour___:
 
-dependancy: eqObjects(). Takes in a truthy statment based on a comparison made by calling back eqObjects(), then logs the results of that assertion to the console. Does not return a value.
+dependancy: `eqObjects()`. Takes in a truthy statment based on a comparison made by calling back `eqObjects()`, then logs the results of that assertion to the console. Does not return a value.
 
 ---
 
@@ -77,7 +78,7 @@ dependancy: eqObjects(). Takes in a truthy statment based on a comparison made b
 
 ___Params___:
 
-- (a) a String.
+- (a) a String
 
 ___Behaviour___:
 
@@ -92,7 +93,7 @@ Returns a new Object. The key/value pairs of the return object are comprised of 
 ___Params___:
 
 - (a) an array of items
-- (b) an object of truthy values 
+- (b) an object of truthy values
 
 ___Behaviour___:
 
