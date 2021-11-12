@@ -26,7 +26,7 @@ Draws heavily upon the Lodash library. But is considered a simpler derivative.
 1. middle
 1. tail
 1. takeUntil
-1. without
+1. [without](https://github.com/deuxp/lotide/blob/master/README.md#16-without)
 
 ---
 ## 1. assertArraysEqual
