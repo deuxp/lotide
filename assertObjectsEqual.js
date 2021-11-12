@@ -1,10 +1,10 @@
 const eqObjects = require('./eqObjects');
 const inspect = require('util').inspect;
-// ==================================
-// assertObjectsEqual(arg1, arg2) is a function that determines whether 2 objects are strictly equal.
+// =================================================================
+// assertObjectsEqual(arg1, arg2) is a function that determines whether two objects are strictly equal.
 // Return: undefined
 // Behaviour: logs the results to the console
-// ==================================
+// =================================================================
 const assertObjectsEqual = function(actual, expected) {
   if (eqObjects(actual, expected)) {
     console.log(`💎 💎 💎 Assertion Passed: ${inspect(actual)} === ${inspect(expected)}`);

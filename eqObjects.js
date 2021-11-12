@@ -1,12 +1,10 @@
 // =================================================================
-// eqArrays(arg1, arg2): is a function that determines whether 2 objects
-//                       are strictly equal.
-// Parameters: (A) the object to test (B) the expected object
-// Return:     Boolean
-// Behaviour:  One list of keys is used for both objects.
-//             The values is tested for strict equality.
-//             If the objects properties amount to different lengths,
-//             false is automatically returned.
+// Input:       (A) the object to test (B) the expected object
+// Return:      Boolean
+// Behaviour:   One list of keys is used for both objects.
+//              The values is tested for strict equality.
+//              If the objects properties amount to different lengths,
+//              false is automatically returned.
 // =================================================================
 const eqObjects = (actual, expected) => {
   const actualKeys = Object.keys(actual);

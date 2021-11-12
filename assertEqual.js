@@ -1,8 +1,10 @@
-// ==================================
-// assertEqual(arg1, arg2) is a function that determines whether 2 passed values are strictly equal.
-// Return: undefined
-// behaviour: logs the results to the console
-// ==================================
+// =================================================================
+// Input      ->  [actual]    -a Primitive value to test, 
+//                [expected]  -a Primitive value to test against
+// Return     ->  undefined
+// Behaviour  ->  Compares the 2 arrays for strict equality,
+//                logs the results to the console
+// =================================================================
 const assertEqual = function(actual, expected) {
   const pass = `💎 💎 💎 Assertion Passed: ${actual} === ${expected}`;
   const notPass = `😵 😵‍💫 😬 Assertion Failed: ${actual} !== ${expected}`;

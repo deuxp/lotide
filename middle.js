@@ -1,5 +1,10 @@
-// Return the middle item for an odd numbered array..
-// for even numbered array, return the two middle items
+// =================================================================
+// Input      ->  an array of any length
+// Return     ->  (a) the middle item for an odd numbered array, or
+//                (b) the two middle items for even numbered array,
+// Behaviour  ->  Uses a simple division formula for the index positions.
+//                Tests first if the array is even or odd length.
+// =================================================================
 const middle = function(array) {
   if (!(array) || array.length < 3 || !(Array.isArray(array))) {
     return [];

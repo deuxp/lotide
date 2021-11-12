@@ -1,10 +1,8 @@
 // =================================================================
-// findKey(object, callback): returns the key of an object based on
-//                            the criteria, defined in a callback function
-// Parameters: (A) an object (B) a callback function
-// Return:     'String' or undefined
-// Behaviour:  Returns the first key for which the callback returns
-//             a truthy value. If no key is found, it returns undefined.
+// Input:       (A) an object (B) a callback function
+// Return:      'String' or undefined
+// Behaviour:   Returns the first key for which the callback returns
+//              a truthy value. If no key is found, it returns undefined.
 // =================================================================
 const findKey = function(object, callback) {
   for (const key in object) {

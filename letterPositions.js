@@ -1,6 +1,8 @@
-// input ->  string
-// output->  (a) object of letters[key] occuring in the string,
-          // (b) array of index[value] positions of the letter[key]
+// =================================================================
+// Input ->   any String
+// Output->   (a) object of letters[key] occuring in the string,
+//            (b) array of index[value] positions of the letter[key]
+// =================================================================
 const letterPositions = function(input) {
   const result = {};
   // primes the input -- remove whitespace and force lowercase

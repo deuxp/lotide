@@ -1,9 +1,8 @@
 // =================================================================
-// eqArrays(arg1, arg2): is a function that determines whether 2 arrays
-//                       are strictly equal.
-// Parameters: (A) an array (B) an array
-// Return:     Boolean
-// Behaviour:
+// Input:       (A) an array (B) an array
+// Return:      Boolean
+// Behaviour:   compares 2 arrays, determines whether 2 arrays
+//              are strictly equal.
 // =================================================================
 
 const eqArrays = function(array1, array2) {
