@@ -11,7 +11,9 @@ const countOnly = (allItems, itemsToCount) => {
   const results = {};
   for (let item of  allItems) {
     if (itemsToCount[item]) {
+      // if property of the item does not exist one is made
       if (!(results[item])) results[item] = 0;
+      // property is counted
       results[item] += 1;
     }
   }

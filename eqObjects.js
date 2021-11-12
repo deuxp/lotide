@@ -1,4 +1,3 @@
-const eqArrays = require('./eqArray');
 // =================================================================
 // eqArrays(arg1, arg2): is a function that determines whether 2 objects
 //                       are strictly equal.
@@ -12,22 +11,13 @@ const eqArrays = require('./eqArray');
 const eqObjects = (actual, expected) => {
   const actualKeys = Object.keys(actual);
   const expectedKeys = Object.keys(expected);
-
+  // checks if one object contains more properties than the other
   if (actualKeys.length !== expectedKeys.length) return false;
-
   for (let i = 0; i < actualKeys.length; i++) {
     const key = actualKeys[i];
-
+    // checks the values of both objects using one set of keys for deep equality
     if (actual[key] !== expected[key]) {
-      if (Array.isArray(actual[key]) && Array.isArray(expected[key])) {
-        if (eqArrays(actual[key], expected[key])) {
-          continue;
-        } else {
-          return false;
-        }
-      } else {
-        return false;
-      }
+      return false;
     }
   }
   return true;
