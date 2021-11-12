@@ -55,8 +55,8 @@ This project was created and published by me as part of my learnings at Lighthou
 
 ___Params___:
 
-- (A) Type: array -- should be the array you want to test. Actual
-- (B) type: array -- expected outcome
+- (array1) Type: array -- should be the array you want to test. Actual
+- (array2) type: array -- expected outcome
 
 ___Behaviour___:
 
@@ -70,8 +70,8 @@ dependancy: `eqArrays()`. Takes in a truthy statment based on a comparison made 
 
 ___Params___:
 
-- (a) primitive data type, to be tested
-- (b) the expected primitive data type
+- (actual) primitive data type, to be tested
+- (expected) the expected primitive data type
 
 ___Behaviour___:
 
@@ -85,8 +85,8 @@ Uses strict equality `===` of the two primitives and then logs the results of th
 
 ___Params___:
 
-- (a) the object to be tested. Actual
-- (b) the expected object. To test against
+- (obj1) the object to be tested. Actual
+- (obj2) the expected object. To test against
 
 ___Behaviour___:
 
@@ -96,11 +96,11 @@ dependancy: `eqObjects()`. Takes in a truthy statment based on a comparison made
 
 ## 4. countLetters
 
-`countLetters('string')`: a function that counts the letters of a string.
+`countLetters(string)`: a function that counts the letters of a string.
 
 ___Params___:
 
-- (a) a String
+- (string) any String
 
 ___Behaviour___:
 
@@ -114,8 +114,8 @@ Returns a new Object. The key/value pairs of the return object are comprised of 
 
 ___Params___:
 
-- (a) an array of items
-- (b) an object of truthy values
+- (allItems) an array of items
+- (itemsToCount) an object of truthy values
 
 ___Behaviour___:
 
@@ -129,8 +129,8 @@ The key from parameter B has a truthy value. If true and the key matches an item
 
 ___Params___:
 
-- (a) array to test
-- (b) the expected array to test against
+- (array1) array to test
+- (array2) the expected array to test against
 
 ___Behaviour___:
 
@@ -144,8 +144,8 @@ Returns a Boolean value. Loops through each of the items in the array testing fo
 
 ___Params___:
 
-- (a) object to test
-- (b) the expected object to test against
+- (obj1) object to test
+- (obj2) the expected object to test against
 
 ___Behaviour___:
 
@@ -159,8 +159,8 @@ Returns a Boolean value. Loops through each of the key:value pairs in both objec
 
 ___Params___:
 
-- (a) an object
-- (b) a callback function
+- (object) an object
+- (callback) a callback function
 
 ___Behaviour___:
 
@@ -174,8 +174,8 @@ Returns the first key, as a String, for which the callback returns a truthy valu
 
 ___Params___:
 
-- (a) an object
-- (b) any primitive value to check for
+- (object) an object
+- (value) any primitive value to check for
 
 ___Behaviour___:
 
@@ -189,7 +189,7 @@ Returns the first key, as a String, that matches the argument passed to the seco
 
 ___Params___:
 
-- (a) an array
+- (array) an array
 
 ___Behaviour___:
 
@@ -203,7 +203,7 @@ Iterates through the array and pushes each item to a new array. If the item is a
 
 ___Params___:
 
-- (a) an array
+- (array) an array of any length
 
 ___Behaviour___:
 
@@ -213,11 +213,11 @@ Slices and returns a shallow copy of the first item of the array passed as an ar
 
 ## 12. letterPositions
 
-`letterPositions('string')`: Returns an object of letters that appear in the string and their index positions, listed in an array.
+`letterPositions(string)`: Returns an object of letters that appear in the string and their index positions, listed in an array.
 
 ___Params___:
 
-- (a) a String
+- (string) any String
 
 ___Behaviour___:
 
@@ -231,8 +231,8 @@ Returns a new Object with the letters that appear in the string as the keys, and
 
 ___Params___:
 
-- (a) an array
-- (b) a callback function
+- (array) an array of any length
+- (callback) a callback function
 
 ___Behaviour___:
 
@@ -246,11 +246,11 @@ Returns a new array based on the results of a callback function being performed 
 
 ___Params___:
 
-- (a) an array
+- (array) an array of any length
 
 ___Behaviour___:
 
-Returns a new array that contains the middle item of an array passed as an argument. If the array length is even numbered, the two middle items will be returned. 
+Returns a new array that contains the middle item of an array passed as an argument. If the array length is even numbered, the two middle items will be returned.
 
 ---
 
@@ -260,7 +260,7 @@ Returns a new array that contains the middle item of an array passed as an argum
 
 ___Params___:
 
-- (a) an array
+- (array) an array of any length
 
 ___Behaviour___:
 
@@ -274,8 +274,8 @@ Returns a new array that contains the all items of an array passed as an argumen
 
 ___Params___:
 
-- (a) an array
-- (b) a callback function
+- (array) an array of any length
+- (callback) a callback function that provides the stopping condition for the new array
 
 ___Behaviour___:
 
@@ -289,8 +289,8 @@ Returns a new array, by looping the array, comparing for strict equality, every 
 
 ___Params___:
 
-- (a) an source array
-- (b) an array of items to remove 
+- (source) an source array
+- (itemsToRemove) an array of items to remove from the source array
 
 ___Behaviour___:
 
