@@ -6,7 +6,7 @@ The Lotide project is a library of useful data processing utilites for common Ja
 
 Heavily inspired by the Lodash library, Lotide offers simpler, singular purpose derivatives. Lightwieght and powerful. Enjoy!
 
-## table of contents
+## Table of contents
 
 1. [assertArraysEqual](https://github.com/deuxp/lotide/blob/master/README.md#1-assertarraysequal)
 1. [assertEqual](https://github.com/deuxp/lotide/blob/master/README.md#2-assertequal)
@@ -145,7 +145,7 @@ Returns the first key, as a String, for which the callback returns a truthy valu
 
 ---
 
-### 9. findKeyByValue
+## 9. findKeyByValue
 
 `findKeyByValue(object, value)`: returns the first key of an objects property whos value matches the provided argument.
 
@@ -160,7 +160,7 @@ Returns the first key, as a String, that matches the argument passed to the seco
 
 ---
 
-### 10. flatten
+## 10. flatten
 
 `flatten(array)`: returns nested arrays as one flat array.
 
@@ -174,7 +174,7 @@ Iterates through the array and pushes each item to a new array. If the item is a
 
 ---
 
-### 11. head
+## 11. head
 
 `head(array)`: returns the first item in an array.
 
@@ -188,7 +188,7 @@ Slices and returns a shallow copy of the first item of the array passed as an ar
 
 ---
 
-### 12. letterPositions
+## 12. letterPositions
 
 `letterPositions('string')`: Returns an object of letters that appear in the string and their index positions, listed in an array.
 
@@ -202,7 +202,7 @@ Returns a new Object with the letters that appear in the string as the keys, and
 
 ---
 
-### 13. map
+## 13. map
 
 `map(array, callback)`: Performs a callback function on each item of an array.
 
