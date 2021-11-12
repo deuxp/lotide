@@ -16,11 +16,11 @@ This project was created and published by me as part of my learnings at Lighthou
 
 **Install it:**
 
-`npm install @username/lotide`
+`npm install @gottfriedk/lotide`
 
 **Require it:**
 
-`const _ = require('@username/lotide');`
+`const _ = require('@gottfriedk/lotide');`
 
 **Call it:**
 
