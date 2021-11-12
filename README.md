@@ -10,22 +10,22 @@ Draws heavily upon the Lodash library. But is considered a simpler derivative.
 
 ## table of contents
 
-1. assertArraysEqual [An Internal Link to a Section Heading](/guides/content/editing-an-existing-page#modifying-front-matter)
-1. assertEqual
-1. assertObjectsEqual
-1. countLetters
-1. countOnly
-1. eqArray
-1. eqObjects
-1. findKey
-1. findKeyByValue
-1. flatten
-1. head
-1. letterPositions
-1. map
-1. middle
-1. tail
-1. takeUntil
+1. [assertArraysEqual](https://github.com/deuxp/lotide/blob/master/README.md#1-assertarraysequal)
+1. [assertEqual](https://github.com/deuxp/lotide/blob/master/README.md#2-assertequal)
+1. [assertObjectsEqual](https://github.com/deuxp/lotide/blob/master/README.md#3-assertobjectsequal)
+1. [countLetters](https://github.com/deuxp/lotide/blob/master/README.md#4-countletters)
+1. [countOnly](https://github.com/deuxp/lotide/blob/master/README.md#5-countonly)
+1. [eqArrays](https://github.com/deuxp/lotide/blob/master/README.md#6-eqarrays)
+1. [eqObjects](https://github.com/deuxp/lotide/blob/master/README.md#7-eqobjects)
+1. [findKey](https://github.com/deuxp/lotide/blob/master/README.md#8-findkey)
+1. [findKeyByValue](https://github.com/deuxp/lotide/blob/master/README.md#9-findkeybyvalue)
+1. [flatten](https://github.com/deuxp/lotide/blob/master/README.md#10-flatter)
+1. [head](https://github.com/deuxp/lotide/blob/master/README.md#11-head)
+1. [letterPositions](https://github.com/deuxp/lotide/blob/master/README.md#12-letterpositions)
+1. [map](https://github.com/deuxp/lotide/blob/master/README.md#12-map)
+1. [middle](https://github.com/deuxp/lotide/blob/master/README.md#13-middle)
+1. [tail](https://github.com/deuxp/lotide/blob/master/README.md#14-tail)
+1. [takeUntil](https://github.com/deuxp/lotide/blob/master/README.md#15-takeuntil)
 1. [without](https://github.com/deuxp/lotide/blob/master/README.md#16-without)
 
 ---
@@ -53,7 +53,7 @@ ___Params___:
 - (a) primitive data type, to be tested.
 - (b) the expected primitive data type.
 
-## Behaviour:
+___Behaviour___:
 Uses strict equality `===` of the two primitives and then logs the results of the assertion to the console. Returns a Boolean value.
 
 ---
@@ -162,7 +162,7 @@ Returns the first key, as a String, that matches the argument passed to the seco
 
 ---
 
-### 10. flatter
+### 10. flatten
 
 `flatten(array)`: returns nested arrays as one flat array.
 
@@ -204,7 +204,7 @@ Returns a new Object with the letters that appear in the string as the keys, and
 
 ---
 
-### 12. map
+### 13. map
 
 `map(array, callback)`: Performs a callback function on each item of an array.
 
@@ -219,7 +219,7 @@ Returns a new array based on the results of a callback function being performed 
 
 ---
 
-## 13. middle
+## 14. middle
 
 `middle(array)`: Return the middle item or items of an array.
 
@@ -233,7 +233,7 @@ Returns a new array that contains the middle item of an array passed as an argum
 
 ---
 
-## 14. tail
+## 15. tail
 
 `tail(array)`: Returns an array of all items except for the first one.
 
@@ -247,7 +247,7 @@ Returns a new array that contains the all items of an array passed as an argumen
 
 ---
 
-## 15. takeUntil
+## 16. takeUntil
 
 `takeUntil(array, callback)`: Returns a new array, from the beginning up to an item that evaluates to true, based on a truthy evaluation of a callback.
 
@@ -262,7 +262,7 @@ Returns a new array, by looping the array, comparing for strict equality, every 
 
 ---
 
-## 16. without
+## 17. without
 
 `without(source, itemsToRemove)`: Returns an array without the items specified.
 
