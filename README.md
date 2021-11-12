@@ -4,9 +4,31 @@
 
 The Lotide project is a library of useful data processing utilites for common Javascript tasks.
 
-Heavily inspired by the Lodash library, Lotide offers simpler, singular purpose derivatives. Lightwieght and powerful. Enjoy!
+A Lightwieght and powerful mini clone of the [Lodash](https://lodash.com) library. Heavily inspired by the Lodash, Lotide offers simpler, singular purpose derivatives. .. Enjoy!
 
-## Table of contents
+## Purpose
+
+**_BEWARE:_ This library was published for learning purposes. It is _not_ intended for use in production-grade software.**
+
+This project was created and published by me as part of my learnings at Lighthouse Labs. 
+
+## Usage
+
+**Install it:**
+
+`npm install @username/lotide`
+
+**Require it:**
+
+`const _ = require('@username/lotide');`
+
+**Call it:**
+
+`const results = _.tail([1, 2, 3]) // => [2, 3]`
+
+## Documentation
+
+### Table of contents
 
 1. [assertArraysEqual](https://github.com/deuxp/lotide/blob/master/README.md#1-assertarraysequal)
 1. [assertEqual](https://github.com/deuxp/lotide/blob/master/README.md#2-assertequal)
@@ -38,7 +60,7 @@ ___Params___:
 
 ___Behaviour___:
 
-dependancy: eqArrays(). Takes in a truthy statment based on a comparison made by calling back eqArrays(), then logs the results of that assertion to the console. Does not return a value.
+dependancy: `eqArrays()`. Takes in a truthy statment based on a comparison made by calling back `eqArrays()`, then logs the results of that assertion to the console. Does not return a value.
 
 ---
 
