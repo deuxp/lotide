@@ -2,11 +2,9 @@
 
 ## About
 
-The Lotide project is inspired by the Lodash project, which is a utility library for JavaScript. While Lodash itself is quite powerful, our version of it is simpler in order to focus on learning the fundamentals of programming and data management using JavaScript.
-
 The Lotide project is a library of useful data processing utilites for common Javascript tasks.
 
-Draws heavily upon the Lodash library. But is considered a simpler derivative.
+Heavily inspired by the Lodash library, Lotide offers simpler, singular purpose derivatives. Lightwieght and powerful. Enjoy!
 
 ## table of contents
 
