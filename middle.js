@@ -5,6 +5,7 @@ const middle = function(array) {
     return [];
   }
   const len = array.length;
+  // ternary returns the middle item if the array is odd : or the middle two, if the array is even
   return len %  2 ? [array[Math.floor(len / 2)]] : [array[len / 2 - 1], array[len / 2]];
 };
 
