@@ -31,12 +31,12 @@ Heavily inspired by the Lodash library, Lotide offers simpler, singular purpose 
 
 `assertArraysEqual(array1, array2)`: a function that determines whether 2 arrays are strictly equal.
 
-#___Params___:
+___Params___:
 
 - (A) Type: array -- should be the array you want to test. Actual
 - (B) type: array -- expected outcome.
 
-___ Behaviour___:
+___Behaviour___:
 
 dependancy: eqArrays(). Takes in a truthy statment based on a comparison made by calling back eqArrays(), then logs the results of that assertion to the console. Does not return a value.
 
