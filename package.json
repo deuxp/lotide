@@ -2,7 +2,7 @@
   "name": "lotide",
   "version": "1.0.0",
   "description": "A library of useful functions -- swiss army knife for data manipulation -- simpler derivative of the Lodash library",
-  "main": "assertArraysEqual.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
